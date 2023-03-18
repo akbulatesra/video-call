@@ -1,0 +1,46 @@
+.wrapper {
+  height: 100%;
+  background-color: #edbaf0;
+}
+.nav {
+  background-color: #f53a38;
+  padding: 0.8vw;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  img {
+    width: 2.5vw;
+    margin-left: 50px;
+  }
+}
+.title {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #e9f35e;
+  display: flex;
+  gap: 10px;
+}
+.subtitle {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fdffdf;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  img {
+    width: 1.5vw;
+  }
+}
+.subtitleWrapper {
+  display: flex;
+  margin-left: auto;
+}
+.copy {
+  cursor: pointer;
+}
