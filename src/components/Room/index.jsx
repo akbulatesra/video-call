@@ -62,7 +62,7 @@ const Room = ({ roomName, token, handleLogout }) => {
         <div className={styles.subtitleWrapper}>
           <div className={styles.subtitle}>
             <img src="/people.svg" alt="people" />
-            <div>Room Name: {roomName}</div>
+            <div className={styles.blend}>Room Name: {roomName}</div>
           </div>
           <div className={styles.subtitle}>
             <img src="/plus.svg" alt="plus" className={styles.copy} />
